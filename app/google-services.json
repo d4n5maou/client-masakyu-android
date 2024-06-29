@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "440081399781",
+    "firebase_url": "https://masakyuk-4d4d0-default-rtdb.firebaseio.com",
+    "project_id": "masakyuk-4d4d0",
+    "storage_bucket": "masakyuk-4d4d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440081399781:android:7e7e89e03822218b4b790c",
+        "android_client_info": {
+          "package_name": "com.pab.masakyuapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkcjLNZWBzf8-oGV1EwipzaIndC7uY8-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

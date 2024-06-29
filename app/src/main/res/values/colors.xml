@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white2">#fcfcfc</color>
+    <color name="stonewhite">#ededed</color>
+    <color name="orange">#EE7214</color>
+    <color name="lightorange">#F7B787</color>
+    <color name="yellow">#FFB534</color>
+    <color name="lightgrey">#cccccc</color>
+    <color name="mediumgrey">#a7a7a7</color>
+    <color name="merahmuda">#EC8F5E</color>
+    <color name="pasir">#F1EB90</color>
+    <color name="cream">#F3B664</color>
+    <color name="merahjambu">#ffe9f3</color>
+    <color name="hijauarmy">#527853</color>
+    <color name="grey">#333333</color>
+</resources>

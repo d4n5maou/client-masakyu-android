@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="10dp"
+    android:elevation="5dp"
+    android:background="@drawable/background_buatresep2"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:rotation="-90"
+        android:src="@drawable/baseline_create_24" />
+
+    <EditText
+        android:id="@+id/editTextItemResep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_weight="1"
+        android:textSize="14dp"
+        android:padding="10dp"
+        android:textColor="@color/grey"
+        android:hint="1/2 kg ayam" />
+
+    <ImageView
+        android:id="@+id/btnHapusBahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:src="@drawable/baseline_delete_outline_24" />
+</LinearLayout>

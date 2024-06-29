@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shape dasar dengan warna solid putih -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/merahmuda" />
+            <corners android:topLeftRadius="40dp" />
+        </shape>
+    </item>
+    <!-- Stroke hanya di bagian atas -->
+    <item android:top="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:topLeftRadius="40dp" />
+        </shape>
+    </item>
+</layer-list>

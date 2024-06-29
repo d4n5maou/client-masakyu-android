@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_bottomsheet"
+    android:padding="20dp">
+
+    <!-- Tambahkan elemen UI yang Anda inginkan di sini -->
+    <TextView
+        android:id="@+id/textViewBuatAkun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Buat akun"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/textBuatUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="@color/grey"
+        android:backgroundTint="@color/grey"
+        android:ems="10"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/textBuatEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:backgroundTint="@color/grey"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/textBuatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:backgroundTint="@color/grey"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/textCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:backgroundTint="@color/grey"
+        android:hint="Confirm Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:text="submit" />
+
+    <TextView
+        android:id="@+id/tv_judul_resep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Udah punya akun?" />
+
+    <TextView
+        android:id="@+id/tv_yukMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="yuk masuk"
+        android:textColor="@color/grey" />
+
+</LinearLayout>

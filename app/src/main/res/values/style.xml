@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="botnavstyle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">8sp</item> <!-- Ubah ukuran teks sesuai kebutuhan -->
+    </style>
+</resources>

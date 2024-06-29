@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/framelayout_beranda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/white"
+        android:padding="4dp">
+
+        <ImageButton
+            android:id="@+id/btnBeranda"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            app:tint="@color/grey"
+            app:srcCompat="@drawable/baseline_home_24" />
+
+        <ImageButton
+            android:id="@+id/btnBuatresep"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            app:tint="@color/grey"
+            app:srcCompat="@drawable/baseline_add_box_24" />
+
+        <ImageButton
+            android:id="@+id/btnAkun"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            app:srcCompat="@drawable/baseline_account_circle_24"
+            app:tint="@color/grey" />
+
+    </LinearLayout>
+
+</LinearLayout>
